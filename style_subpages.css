@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+
+/*.background_opacity{
+	position: absolute;
+	top: 250px;
+	z-index: -10;
+	top: 0; left: 0; right: 0; bottom: 0;
+	/*background-color: rgba(255, 255, 255, 0.3);*/ /* L'opacite se regle ici
+	background-color: rgba(190,213,254,0.4);
+	overflow:auto;
+}
+*/
+
+
+h1 {
+	font-family:Candara;
+	font-size:30px;
+	color:hsl(0,100%,25%) /*maroon*/;
+	text-align:center;
+	font-weight:bold;
+	padding : 20px;
+	margin: 10px;
+}
+	
+h2 {
+	font-family: Candara;
+	font-size:24px;
+	color:hsl(0,100%,25%) /*maroon*/;
+	text-align:center;
+	/*padding: 10px 15px;*/
+}
+
+h3{
+	color: hsl(0,100%,25%) /*maroon*/;
+	font-weight: normal;
+	text-align:center;
+}
+
+body{
+	font-family:Calibri;
+}
+
+header{
+	background: #FFF;
+	height: 190px;
+	position : fixed;	
+	top:0px;
+	width: 100%;
+	z-index:5;
+	border: 3px solid #FFF;
+}
+
+header a {
+	position:fixed;
+	float: left;
+	z-index:6;
+	/*margin: 10px;*/
+} 
+
+header .navigation{
+	text-align: center;
+	position:relative;	
+}
+
+header .navigation img{
+	clear:left;
+}
+
+header .navigation a{
+	position:relative;
+	float:none;
+	font-family:Raleway, sans-serif;
+	background: hsl(0,100%,25%) /*maroon*/;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius : 3px;
+	margin: 5px 0px;
+	padding: 14px;
+	border: 1px solid hsl(0,100%,25%) /*maroon*/;
+}
+
+header .navigation a:hover{
+	background: #FFF;
+	color: hsl(0,100%,25%) /*maroon*/;
+}
+
+#menu, #menu ul{
+	list-style: none;
+	/*text-align: center;*/
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+
+#menu li{
+	/*float: left;*/
+	
+}
+
+#menu li ul {
+	position: absolute;
+	left: -999em;
+	border: 1px solid hsl(0,100%,25%);
+	background: #FFF;
+	
+}
+
+#menu li ul li a{
+	margin: 0px;
+	padding:0px;
+	background: none;
+	color: hsl(0,100%,25%);
+	text-transform: none;
+	border:none;
+}
+
+#menu li ul li{
+	margin:0px;
+}
+
+#menu li:hover ul{
+	left: auto;
+	min-height: 0;
+}	
+
+#menu li ul li:hover{
+	background: hsl(0,100%,25%); /*gris clair*/ 
+	border-radius:0px;
+	display: inline-block;
+	width:100%;
+	margin:0px;
+}
+
+#menu li ul li:hover a{
+	color: #FFF;
+	text-transform: none;
+	/*border:none;*/
+}
+
+
+.photo{
+	position: relative;
+	top:190px;
+	overflow:hidden;
+}
+
+.intro{
+	position: relative;
+	top: 200px;
+	/*border-bottom: 3px dotted maroon;*/
+	width:100%;
+	padding-left:20%;
+	padding-right: 20%;
+	text-align: center;
+}
+
+ul{
+	
+}
+
+li {
+	display: inline-block;
+	/*background: hsl(197,100%,25%)/*rgba(190,213,254,0.8)*/;
+	border-radius: 15px;
+	padding: 10px 15px;
+	text-align: center;
+	margin: 0px 20px;
+	vertical-align: middle;
+}
+
+.intro a {
+	/*margin: 0px 20px;*/
+	color: black;
+	text-decoration: none;
+}
+
+.intro a:hover{
+	font-weight: bold;
+} 
+
+.programme{
+	position: relative;
+	top: 200px;
+	width: 100%;
+	padding-left:20%;
+	padding-right: 20%;
+	/*border-bottom: 3px dotted maroon;*/
+	margin-top:70px;
+	text-align: center;
+}
+
+table{
+	box-sizing: box-content;
+	width: 100%;
+}
+
+thead th{
+	background: hsl(197,100%,25%);
+	color: #FFF;
+	text-transform: uppercase;
+	margin: 5px 10px;
+}
+
+th, td{
+	padding:10px;
+	text-align: center;
+	border: 2px solid #FFF;
+}
+
+table td{
+	/*background : rgba(192,192,192,0.7);*/
+	background:hsl(197,100%,90%) /*rgba(190,213,254,0.8)*/;
+}
+
+.programme a {
+	/*margin: 0px 20px;*/
+	color: black;
+	text-decoration: none;
+}
+
+.programme a:hover{
+	font-weight: bold;
+} 
+
+
+.texte{
+	position: relative;
+	top: 200px;
+	width: 100%;
+	padding-left:20%;
+	padding-right: 20%;
+	margin-top:70px;
+	text-align: center;
+	
+}
+
+.texte_element{
+	display: inline-block;
+	width:40%;
+	vertical-align: middle;
+	/* trouver comment faire pour diviser par le nombre d'élément plutôt que de mettre un % ! */
+
+}
+.texte_element p {
+	padding: 10px 15px;
+	background: hsl(197,100%,90%);
+	border-radius: 15px;
+	/*width:30%;*/
+}

@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+/*.background_opacity{
+	position: absolute;
+	top: 250px;
+	z-index: -10;
+	top: 0; left: 0; right: 0; bottom: 0;
+	/*background-color: rgba(255, 255, 255, 0.3);*/ /* L'opacite se regle ici
+	background-color: rgba(190,213,254,0.4);
+	overflow:auto;
+}
+*/
+
+h1 {
+	font-family:Candara;
+	font-size:30px;
+	color:hsl(0,100%,25%) /*maroon;*/
+	text-align:center;
+	font-weight:bold;
+	padding : 20px;
+	margin: 10px;
+}
+	
+h2 {
+	font-family: Candara;
+	font-size:24px;
+	color:hsl(0,100%,25%) /*maroon;*/;
+	/*padding: 10px 15px;*/
+}
+
+h3{
+	color: hsl(0,100%,25%) /*maroon;*/;
+	font-weight: normal;
+}
+
+body{
+	font-family:Calibri;
+	
+}
+
+header{
+	background: #FFF; /*white*/
+	height: 190px;
+	text-align: center;
+	position : fixed;
+	width: 100%;
+	top:0px;
+	z-index:5;
+	margin:0px;
+	border: 3px solid #FFF;
+}
+
+header img{
+	/*margin-bottom:5px;*/
+}
+
+header .navigation a{
+	font-family:Raleway, sans-serif;
+	display: inline-block;
+	background: hsl(0,100%,25%) /*maroon;*/;
+	color: #FFF; /*white*/;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius : 3px;
+	margin: 5px 10px;
+	padding: 14px;
+	border: 1px solid hsl(0,100%,25%) /*maroon;*/;
+}
+
+header .navigation a:hover{
+	background: #FFF;
+	color: maroon;
+}
+
+.photo{
+	position: relative;
+	top:190px;
+	overflow:hidden;
+}
+
+.moi{
+	position:relative;
+	top:190px;
+	background: hsl(180,100%,25%);
+	color: white;
+	font-size:20px;
+	padding-top:10px; 
+	padding-bottom:20px;
+	display: flex;
+	align-items: center;
+	justify-content:space-evenly;
+}
+
+.moi .element{
+	width:16%;
+	text-align: center;
+}
+
+.moi .element p{
+	margin:auto;
+	padding:10px 0px; 
+}
+
+.moi .element img{
+	margin:0px;
+	padding:10px 0px;
+
+}
+
+footer{
+	background:black;
+	color:white;
+	text-align:center;
+	position: relative;
+	top:190px;
+	font-style: italic;
+}
